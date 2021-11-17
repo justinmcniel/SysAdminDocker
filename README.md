@@ -28,4 +28,14 @@ This is the Docker project from my System Administration course
     - Click the star button to create a new task
       - Set up the task according ot what you need (I called it Local Scan, and it scanned my Local targets, and everything else was default)
     - Click the start button next to the task to make the task start
+# Results
 ![image](https://user-images.githubusercontent.com/72999136/142086378-50bf3910-f304-475e-9646-07ba474bc7db.png)
+
+# YAML File 
+`version: '3.3'
+services:
+    openvas:
+        ports:
+            - '443:443'
+        container_name: openvas
+        image: mikesplain/openvas`
