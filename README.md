@@ -32,16 +32,10 @@ This is the Docker project from my System Administration course
 ![image](https://user-images.githubusercontent.com/72999136/142086378-50bf3910-f304-475e-9646-07ba474bc7db.png)
 
 # YAML File 
-        `version: '3.3'
-
-        services:
-
-            openvas:
-
-                ports:
-
-                    - '443:443'
-
-                container_name: openvas
-
-                image: mikesplain/openvas`
+    version: '3.3'
+    services:
+        openvas:
+            ports:
+                - '443:443'
+            container_name: openvas
+            image: mikesplain/openvas
