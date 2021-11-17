@@ -39,9 +39,15 @@ This is the Docker project from my System Administration course
                 - '443:443'
             container_name: openvas
             image: mikesplain/openvas
+            
 The first line says the version number
+
 The next one enters the services section
+
 The only service is OpenVAS
+
 It's running on port 443, both in and out
+
 The container name is `openvas`
+
 The image the container uses is `mikesplain/openvas`
