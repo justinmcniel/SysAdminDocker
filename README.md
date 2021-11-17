@@ -33,7 +33,6 @@ This is the Docker project from my System Administration course
 
 # YAML File 
 `version: '3.3'
-
 services:
 
     openvas:
